@@ -16,3 +16,10 @@
 - Each problem is sampled **10 times per language**.
 - **Bad, wrong, and repetitive reasoning traces are retained** rather than filtered out, allowing reasoning instability to be analyzed.
 
+### Final generation protocol
+- do_sample = True
+- temperature = 0.7
+- top_p = 0.9
+- max_new_tokens = 1024
+- samples_per_problem = 10
+
